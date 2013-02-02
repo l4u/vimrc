@@ -19,6 +19,9 @@ NeoBundle "tpope/vim-sensible"
 " sleuth.vim: Heuristically set buffer options
 NeoBundle "tpope/vim-sleuth"
 
+" eunuch.vim: helpers for UNIX
+NeoBundle "tpope/vim-eunuch"
+
 " Fuzzy file, buffer, mru, tag, etc finder.
 NeoBundle "kien/ctrlp.vim"
 
