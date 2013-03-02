@@ -48,6 +48,9 @@ NeoBundle "Valloric/YouCompleteMe"
 " Syntax checker
 NeoBundle "scrooloose/syntastic"
 
+" Vim: Hard Mode
+NeoBundle "wikitopian/hardmode"
+
 " A Vim plugin for visually displaying indent levels in code 
 " NeoBundle 'nathanaelkane/vim-indent-guides'
 
@@ -113,3 +116,7 @@ augroup mine
   au BufWinEnter * sign define mysign
   au BufWinEnter * exe "sign place 1337 line=1 name=mysign buffer=" . bufnr('%')
 augroup END
+
+" hard mode config
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
