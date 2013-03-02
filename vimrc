@@ -59,6 +59,8 @@ set colorcolumn=80
 colorscheme Tomorrow-Night
 set ic " case insensitive search
 
+nmap ; :
+
 set noswapfile
 set nobackup
 
