@@ -113,7 +113,6 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 " }
-
 " Key Mapping {
 let mapleader = ","
 let maplocalleader = "\\"
@@ -122,6 +121,22 @@ noremap <space> za
 " Restore view {
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview 
+" }
+" Colors {
+" force 256 colors even if TERM is not xterm-256color
+" set t_Co=256
+
+" Fix syntax highlighting
+let c_minlines=500
+autocmd BufEnter * :syntax sync fromstart
+" }
+" Show invisible characters {
+set list
+set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
+" }
+" Custom Commands {
+" space to line break and sort unique
+command SpaceToLineBreakAndSort %s/ /\r/ge | sort u 
 " }
 " Other Settings {
 set number
@@ -134,30 +149,11 @@ nmap ; :
 set noswapfile
 set nobackup
 
-set tabstop=4
-set shiftwidth=4
-set tabstop=4
+set tabstop=2
+set shiftwidth=2
+set tabstop=2
 set expandtab
 set smarttab
-
-" Colors {
-" force 256 colors even if TERM is not xterm-256color
-" set t_Co=256
-
-" Fix syntax highlighting
-let c_minlines=500
-autocmd BufEnter * :syntax sync fromstart
-" }
-
-" Show invisible characters {
-set list
-set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
-" }
-
-" Custom Commands {
-" space to line break and sort unique
-command SpaceToLineBreakAndSort %s/ /\r/ge | sort u 
-" }
 " End of Other Settings }
 " End of Settings }
 " Plugin Settings {
