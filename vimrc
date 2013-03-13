@@ -92,6 +92,9 @@ NeoBundle "utl.vim"
 " TOML
 NeoBundle "cespare/vim-toml"
 
+" A plugin for automatically restoring file's cursor position and folding
+NeoBundle "restore_view.vim"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
@@ -214,5 +217,8 @@ let g:erlang_use_conceal=1
 " Ruby, rails {
 au BufRead,BufNewFile *.rabl setf ruby
 au BufRead,BufNewFile Podfile,*.podspec setf ruby
+" }
+" restore_view {
+set viewoptions=cursor,folds,slash,unix
 " }
 " End of Plugin Settings }
