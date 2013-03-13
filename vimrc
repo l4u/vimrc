@@ -92,8 +92,8 @@ NeoBundle "utl.vim"
 " TOML
 NeoBundle "cespare/vim-toml"
 
-" A plugin for automatically restoring file's cursor position and folding
-NeoBundle "restore_view.vim"
+" Extended session management for Vim (:mksession on steroids)
+NeoBundle "xolox/vim-session"
 
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
@@ -118,6 +118,10 @@ map <C-l> <C-W>l
 let mapleader = ","
 let maplocalleader = "\\"
 noremap <space> za
+" }
+" Restore view {
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview 
 " }
 " Other Settings {
 set number
@@ -218,7 +222,8 @@ let g:erlang_use_conceal=1
 au BufRead,BufNewFile *.rabl setf ruby
 au BufRead,BufNewFile Podfile,*.podspec setf ruby
 " }
-" restore_view {
-set viewoptions=cursor,folds,slash,unix
+" vim-session {
+let g:session_autosave=1
+let g:session_autoload=1
 " }
 " End of Plugin Settings }
