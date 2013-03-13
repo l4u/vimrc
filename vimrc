@@ -89,6 +89,9 @@ NeoBundle "mattn/calendar-vim"
 " organize ideas 
 NeoBundle "utl.vim"
 
+" TOML
+NeoBundle "cespare/vim-toml"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
