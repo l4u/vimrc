@@ -36,7 +36,7 @@ NeoBundle "tpope/vim-fugitive"
 " of a word
 NeoBundle "tpope/vim-abolish"
 
-" speeddating.vim: use CTRL-A/CTRL-X to increment dates, times, and more 
+" speeddating.vim: use CTRL-A/CTRL-X to increment dates, times, and more
 NeoBundle 'tpope/vim-speeddating'
 
 " repeat.vim: enable repeating supported plugin maps with "."
@@ -86,7 +86,7 @@ NeoBundle "jceb/vim-orgmode"
 NeoBundle "mattn/calendar-vim"
 
 " utl.vim : Univeral Text Linking - Execute URLs, footnotes, open emails,
-" organize ideas 
+" organize ideas
 NeoBundle "utl.vim"
 
 " TOML
@@ -123,7 +123,7 @@ noremap <space> za
 " }
 " Restore view {
 autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview 
+autocmd BufWinEnter *.* silent loadview
 " }
 " Colors {
 " force 256 colors even if TERM is not xterm-256color
@@ -139,7 +139,7 @@ set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
 " }
 " Custom Commands {
 " space to line break and sort unique
-command SpaceToLineBreakAndSort %s/ /\r/ge | sort u 
+command SpaceToLineBreakAndSort %s/ /\r/ge | sort u
 " }
 " Other Settings {
 set number
@@ -211,7 +211,7 @@ nmap ,<space> <localleader>ct
 nmap ,od <localleader>sa
 " }
 " VimOrganizer {
-" au! BufRead,BufWrite,BufWritePost,BufNewFile *.org 
+" au! BufRead,BufWrite,BufWritePost,BufNewFile *.org
 " au BufEnter *.org            call org#SetOrgFileType()
 " }
 " Erlang {
