@@ -125,6 +125,12 @@ noremap <space> za
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 " }
+" Auto trim spaces {
+autocmd FileWritePre * :Trim
+autocmd FileAppendPre * :Trim
+autocmd FilterWritePre * :Trim
+autocmd BufWritePre * :Trim
+" }
 " Colors {
 " force 256 colors even if TERM is not xterm-256color
 " set t_Co=256
