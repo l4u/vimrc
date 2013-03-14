@@ -95,6 +95,9 @@ NeoBundle "cespare/vim-toml"
 " Extended session management for Vim (:mksession on steroids)
 NeoBundle "xolox/vim-session"
 
+" Identify and Irradicate unwanted whitespace at the end of the line
+NeoBundle "csexton/trailertrash.vim"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
