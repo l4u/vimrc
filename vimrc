@@ -99,9 +99,6 @@ NeoBundle "utl.vim"
 " TOML
 NeoBundle "cespare/vim-toml"
 
-" Extended session management for Vim (:mksession on steroids)
-NeoBundle "xolox/vim-session"
-
 " Identify and Irradicate unwanted whitespace at the end of the line
 NeoBundle "csexton/trailertrash.vim"
 
@@ -239,10 +236,6 @@ let g:erlang_use_conceal=1
 " Ruby, rails {
 au BufRead,BufNewFile *.rabl setf ruby
 au BufRead,BufNewFile Podfile,*.podspec setf ruby
-" }
-" vim-session {
-let g:session_autosave=1
-let g:session_autoload=1
 " }
 " switch.vim {
 nnoremap - :Switch<cr>
