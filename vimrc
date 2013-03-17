@@ -45,6 +45,9 @@ NeoBundle "tpope/vim-repeat"
 " endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script, " etc
 NeoBundle "tpope/vim-endwise"
 
+" surround.vim: quoting/parenthesizing made simple
+NeoBundle "tpope/vim-surround"
+
 " Fuzzy file, buffer, mru, tag, etc finder.
 NeoBundle "kien/ctrlp.vim"
 
