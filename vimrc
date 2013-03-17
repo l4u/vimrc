@@ -104,6 +104,9 @@ NeoBundle "csexton/trailertrash.vim"
 " A simple Vim plugin to switch segments of text with predefined replacements
 NeoBundle "AndrewRadev/switch.vim"
 
+" With bufexplorer, you can quickly and easily switch between buffers
+NeoBundle "bufexplorer.zip"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
