@@ -42,7 +42,8 @@ NeoBundle 'tpope/vim-speeddating'
 " repeat.vim: enable repeating supported plugin maps with "."
 NeoBundle "tpope/vim-repeat"
 
-" endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script, " etc
+" endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script,
+" etc
 NeoBundle "tpope/vim-endwise"
 
 " surround.vim: quoting/parenthesizing made simple
