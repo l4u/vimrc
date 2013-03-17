@@ -101,6 +101,9 @@ NeoBundle "xolox/vim-session"
 " Identify and Irradicate unwanted whitespace at the end of the line
 NeoBundle "csexton/trailertrash.vim"
 
+" A simple Vim plugin to switch segments of text with predefined replacements
+NeoBundle "AndrewRadev/switch.vim"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
@@ -233,5 +236,8 @@ au BufRead,BufNewFile Podfile,*.podspec setf ruby
 " vim-session {
 let g:session_autosave=1
 let g:session_autoload=1
+" }
+" switch.vim {
+nnoremap - :Switch<cr>
 " }
 " End of Plugin Settings }
