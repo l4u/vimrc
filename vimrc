@@ -108,6 +108,9 @@ NeoBundle "bufexplorer.zip"
 " Vim plugin for intensely orgasmic commenting
 NeoBundle "scrooloose/nerdcommenter"
 
+" Better Rainbow Parentheses
+NeoBundle "kien/rainbow_parentheses"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
