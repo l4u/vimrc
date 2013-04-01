@@ -143,7 +143,9 @@ autocmd BufWritePre * :Trim
 " }
 " Colors {
 " force 256 colors even if TERM is not xterm-256color
-" set t_Co=256
+set t_Co=256
+set background=dark
+colorscheme Tomorrow-Night
 
 " Fix syntax highlighting
 let c_minlines=500
@@ -160,7 +162,6 @@ command SpaceToLineBreakAndSort %s/ /\r/ge | sort u
 " Other Settings {
 set number
 set colorcolumn=80
-colorscheme Tomorrow-Night
 set ic " case insensitive search
 
 nmap ; :
