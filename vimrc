@@ -236,4 +236,7 @@ au BufRead,BufNewFile Podfile,*.podspec setf ruby
 " switch.vim {
 nnoremap - :Switch<cr>
 " }
+" nercommenter {
+nmap ;; <Leader>ci
+" }
 " End of Plugin Settings }
