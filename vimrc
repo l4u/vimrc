@@ -105,6 +105,9 @@ NeoBundle "AndrewRadev/switch.vim"
 " With bufexplorer, you can quickly and easily switch between buffers
 NeoBundle "bufexplorer.zip"
 
+" Vim plugin for intensely orgasmic commenting
+NeoBundle "scrooloose/nerdcommenter"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
