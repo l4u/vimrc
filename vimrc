@@ -76,9 +76,6 @@ NeoBundle "Smooth-Scroll"
 " Vim motions on speed
 NeoBundle "Lokaltog/vim-easymotion"
 
-" Allows Vim to use multiple cursors simultaneously
-NeoBundle "paradigm/vim-multicursor"
-
 " Maintains a history of previous yanks, changes and deletes
 NeoBundle "YankRing.vim"
 
@@ -196,11 +193,6 @@ augroup END
 " hard mode {
 "autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
 nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
-" }
-" multicursor {
-let g:multicursor_quit = "<F7>"
-nnoremap <leader>c <Esc>:call MultiCursorSearch('')<CR>
-autocmd ColorScheme * highlight MultiCursor ctermfg=black ctermbg=lightGreen
 " }
 " vim motion {
 "let g:EasyMotion_leader_key = '<space>'
