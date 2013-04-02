@@ -183,6 +183,9 @@ set smarttab
 " End of Other Settings }
 " End of Settings }
 " Plugin Settings {
+" dispatch {
+nnoremap <leader>d :Dispatch<CR>
+" }
 " TagBar {
 nmap <leader>t :TagbarToggle<CR>
 nnoremap <leader>p :set invpaste paste?<CR>
