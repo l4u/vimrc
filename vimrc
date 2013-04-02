@@ -109,7 +109,7 @@ NeoBundle "bufexplorer.zip"
 NeoBundle "scrooloose/nerdcommenter"
 
 " Better Rainbow Parentheses
-NeoBundle "kien/rainbow_parentheses"
+NeoBundle "kien/rainbow_parentheses.vim"
 
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
@@ -241,5 +241,11 @@ nnoremap - :Switch<cr>
 " }
 " nercommenter {
 nmap ;; <Leader>ci
+" }
+" auto rainbow {
+nnoremap <leader>r :RainbowParenthesesToggleAll<cr>
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 " }
 " End of Plugin Settings }
