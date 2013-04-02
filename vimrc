@@ -49,6 +49,9 @@ NeoBundle "tpope/vim-endwise"
 " surround.vim: quoting/parenthesizing made simple
 NeoBundle "tpope/vim-surround"
 
+" dispatch.vim: asynchronous build and test dispatcher
+NeoBundle "tpope/vim-dispatch"
+
 " Fuzzy file, buffer, mru, tag, etc finder.
 NeoBundle "kien/ctrlp.vim"
 
