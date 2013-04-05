@@ -72,10 +72,6 @@ NeoBundle "scrooloose/syntastic"
 " Vim: Hard Mode
 NeoBundle "wikitopian/hardmode"
 
-" Smooths scrolls the window for various key mappings
-" C-U, C-D, C-F, C-B
-NeoBundle "Smooth-Scroll"
-
 " Vim motions on speed
 NeoBundle "Lokaltog/vim-easymotion"
 
