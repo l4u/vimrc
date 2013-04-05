@@ -163,6 +163,7 @@ set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
 command SpaceToLineBreakAndSort %s/ /\r/ge | sort u
 " }
 " Other Settings {
+set scroll=15
 set number
 set colorcolumn=80
 set ic " case insensitive search
