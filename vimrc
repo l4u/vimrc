@@ -123,6 +123,7 @@ NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-haml"
 NeoBundle "kchmck/vim-coffee-script"
 NeoBundle "ingydotnet/yaml-vim"
+NeoBundle "sunaku/vim-ruby-minitest"
 
 " }
 " Settings {
