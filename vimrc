@@ -104,8 +104,9 @@ NeoBundle "AndrewRadev/switch.vim"
 " With bufexplorer, you can quickly and easily switch between buffers
 NeoBundle "bufexplorer.zip"
 
-" Vim plugin for intensely orgasmic commenting
-NeoBundle "scrooloose/nerdcommenter"
+" An extensible & universal comment vim-plugin that also handles embedded
+" filetypes
+NeoBundle "tomtom/tcomment_vim"
 
 " Better Rainbow Parentheses
 NeoBundle "kien/rainbow_parentheses.vim"
@@ -247,8 +248,9 @@ au BufRead,BufNewFile Podfile,*.podspec setf ruby
 " switch.vim {
 nnoremap - :Switch<cr>
 " }
-" nercommenter {
-nmap ;; <Leader>ci
+" tcomment_vim {
+" toggle comment for the current line
+nmap ;; gcc
 " }
 " auto rainbow {
 nnoremap <leader>r :RainbowParenthesesToggleAll<cr>
