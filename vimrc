@@ -110,6 +110,10 @@ NeoBundle "scrooloose/nerdcommenter"
 " Better Rainbow Parentheses
 NeoBundle "kien/rainbow_parentheses.vim"
 
+" Vim plugin, provides insert mode auto-completion for quotes, parens,
+" brackets, etc.
+NeoBundle "Raimondi/delimitMate"
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
