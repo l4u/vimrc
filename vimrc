@@ -76,7 +76,7 @@ NeoBundle "wikitopian/hardmode"
 NeoBundle "Lokaltog/vim-easymotion"
 
 " Maintains a history of previous yanks, changes and deletes
-NeoBundle "YankRing.vim"
+"NeoBundle "YankRing.vim"
 
 " Text outlining and task management for Vim based on Emacs' Org-Mode
 NeoBundle "jceb/vim-orgmode"
@@ -217,8 +217,8 @@ let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyz'
 "let g:EasyMotion_mapping_w = '<space><space>'
 " }
 " ctrlp {
-let g:ctrlp_map = '<Leader>t'
-let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_match_window_bottom = 1
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_custom_ignore = 'vendor\|tmp\|Pods\|\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
 let g:ctrlp_working_path_mode = 0
