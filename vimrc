@@ -245,6 +245,9 @@ let g:erlang_use_conceal=1
 au BufRead,BufNewFile *.rabl setf ruby
 au BufRead,BufNewFile Podfile,*.podspec setf ruby
 " }
+" CoffeeScript {
+au BufWritePost *.coffee CoffeeLint | cwindow | redraw!
+" }
 " switch.vim {
 nnoremap - :Switch<cr>
 " }
