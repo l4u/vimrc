@@ -63,8 +63,9 @@ NeoBundle "majutsushi/tagbar"
 
 " auto complete
 NeoBundle "Valloric/YouCompleteMe"
-"NeoBundle "Shougo/neocomplcache.git"
-"NeoBundle "Shougo/neosnippet.git"
+
+" snippets
+NeoBundle "SirVer/ultisnips"
 
 " Syntax checker
 NeoBundle "scrooloose/syntastic"
