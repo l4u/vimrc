@@ -195,6 +195,9 @@ nmap <leader>t :TagbarToggle<CR>
 nnoremap <leader>p :set invpaste paste?<CR>
 set pastetoggle=<leader>p
 " }
+" ultisnips {
+let g:UltiSnipsExpandTrigger = '<enter>'
+" }
 " syntastic {
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
