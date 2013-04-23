@@ -196,7 +196,7 @@ nnoremap <leader>p :set invpaste paste?<CR>
 set pastetoggle=<leader>p
 " }
 " ultisnips {
-let g:UltiSnipsExpandTrigger = '<enter>'
+let g:UltiSnipsExpandTrigger = '<c-j>'
 " }
 " syntastic {
 set statusline+=%#warningmsg#
