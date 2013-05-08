@@ -120,13 +120,14 @@ NeoBundle "Raimondi/delimitMate"
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
 
-" Rails, YAML, Haml, CoffeeScript
+" Rails, YAML, Haml, CoffeeScript {
 NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-haml"
 NeoBundle "kchmck/vim-coffee-script"
 NeoBundle "ingydotnet/yaml-vim"
 NeoBundle "sunaku/vim-ruby-minitest"
-
+NeoBundle "vim-scripts/JavaScript-Indent"
+NeoBundle "jakar/vim-json"
 " }
 " Settings {
 " Window Navigation {
