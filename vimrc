@@ -120,6 +120,11 @@ NeoBundle "Raimondi/delimitMate"
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
 
+" C {
+NeoBundle "b4winckler/vim-objc"
+NeoBundle 'eraserhd/vim-ios.git'
+NeoBundle "derekwyatt/vim-fswitch"
+" }
 " Rails, YAML, Haml, CoffeeScript {
 NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-haml"
