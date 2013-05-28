@@ -166,6 +166,9 @@ colorscheme Tomorrow-Night
 let c_minlines=500
 autocmd BufEnter * :syntax sync fromstart
 " }
+" GUI Font {
+set guifont=Monaco\ for\ Powerline:h16
+" }
 " Show invisible characters {
 set list
 set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
