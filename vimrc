@@ -132,6 +132,7 @@ NeoBundle "kchmck/vim-coffee-script"
 NeoBundle "ingydotnet/yaml-vim"
 NeoBundle "sunaku/vim-ruby-minitest"
 NeoBundle "vim-scripts/JavaScript-Indent"
+NeoBundle "marijnh/tern_for_vim"
 NeoBundle "jakar/vim-json"
 " }
 " Settings {
