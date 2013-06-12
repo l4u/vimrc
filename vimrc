@@ -1,5 +1,10 @@
 " vim:fdm=marker fmr={,}
-python from powerline.bindings.vim import source_plugin; source_plugin()
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+
 " NeoBundleInit {
 set nocompatible               " Be iMproved
 
@@ -13,6 +18,9 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 NeoBundleFetch "Shougo/neobundle.vim"
 " }
 " Plugins {
+
+" powerline
+NeoBundle "Lokaltog/powerline"
 
 " colorscheme
 NeoBundle "l4u/tomorrow-theme"
