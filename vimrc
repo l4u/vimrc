@@ -55,6 +55,9 @@ NeoBundle "tpope/vim-surround"
 " dispatch.vim: asynchronous build and test dispatcher
 NeoBundle "tpope/vim-dispatch"
 
+" Vim Liquid runtime files with Jekyll enhancements
+NeoBundle "tpope/vim-liquid"
+
 " Fuzzy file, buffer, mru, tag, etc finder.
 NeoBundle "kien/ctrlp.vim"
 
