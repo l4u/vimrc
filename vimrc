@@ -133,7 +133,8 @@ NeoBundle "derekwyatt/vim-fswitch"
 " }
 " Rails, YAML, Haml, CoffeeScript {
 NeoBundle "tpope/vim-rails"
-NeoBundle "tpope/vim-haml"
+NeoBundle "tpope/vim-haml" " Haml, Sass, SCSS
+NeoBundle "groenewege/vim-less"
 NeoBundle "kchmck/vim-coffee-script"
 NeoBundle "ingydotnet/yaml-vim"
 NeoBundle "sunaku/vim-ruby-minitest"
