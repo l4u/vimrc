@@ -282,4 +282,7 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 " }
+" airline {
+let g:airline_powerline_fonts=1
+" }
 " End of Plugin Settings }
