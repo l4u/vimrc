@@ -284,5 +284,6 @@ au Syntax * RainbowParenthesesLoadBraces
 " }
 " airline {
 let g:airline_powerline_fonts=1
+set timeout timeoutlen=500 ttimeoutlen=50 "Fix slow O inserts
 " }
 " End of Plugin Settings }
