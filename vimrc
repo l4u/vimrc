@@ -175,7 +175,7 @@ let c_minlines=500
 autocmd BufEnter * :syntax sync fromstart
 " }
 " GUI Font {
-set guifont=Monaco\ for\ Powerline:h16
+set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h16
 " }
 " Show invisible characters {
 set list
