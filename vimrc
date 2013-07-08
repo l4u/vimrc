@@ -185,6 +185,12 @@ set listchars=tab:→\ ,trail:·,extends:>,precedes:<,nbsp:+
 " space to line break and sort unique
 command SpaceToLineBreakAndSort %s/ /\r/ge | sort u
 " }
+" Copy & Paste {
+nmap <F6> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <F6> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <F5> :.w !pbcopy<CR><CR>
+vmap <F5> :w !pbcopy<CR><CR>
+" }
 " Other Settings {
 set scroll=15
 set number
