@@ -191,6 +191,12 @@ imap <F6> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 nmap <F5> :.w !pbcopy<CR><CR>
 vmap <F5> :w !pbcopy<CR><CR>
 " }
+" word count {
+vmap <F10> :w !wc<CR>
+" }
+" spell checker {
+au BufNewFile,BufRead *.md setlocal spell spelllang=en_us
+" }
 " Other Settings {
 set scroll=15
 set number
@@ -251,6 +257,7 @@ let g:ctrlp_custom_ignore = 'vendor\|tmp\|Pods\|\v\~$|\.(o|swp|pyc|wav|mp3|ogg|b
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
+nmap <F7> :CtrlPClearAllCaches<CR>
 " }
 " gitgutter {
 augroup gitgutter
