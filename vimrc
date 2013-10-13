@@ -143,12 +143,6 @@ NeoBundle "marijnh/tern_for_vim"
 NeoBundle "jakar/vim-json"
 " }
 " Settings {
-" Window Navigation {
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-" }
 " Key Mapping {
 let mapleader = ","
 let maplocalleader = "\\"
@@ -159,10 +153,11 @@ autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 " }
 " Auto trim spaces {
-autocmd FileWritePre * :Trim
-autocmd FileAppendPre * :Trim
-autocmd FilterWritePre * :Trim
-autocmd BufWritePre * :Trim
+
+"autocmd FileWritePre * :Trim
+"autocmd FileAppendPre * :Trim
+"autocmd FilterWritePre * :Trim
+"autocmd BufWritePre * :Trim
 " }
 " Colors {
 " force 256 colors even if TERM is not xterm-256color
@@ -196,6 +191,7 @@ vmap <F10> :w !wc<CR>
 " }
 " spell checker {
 au BufNewFile,BufRead *.md setlocal spell spelllang=en_us
+au BufNewFile,BufRead *.markdown setlocal spell spelllang=en_us
 " }
 " Other Settings {
 set scroll=15
@@ -298,5 +294,13 @@ au Syntax * RainbowParenthesesLoadBraces
 " airline {
 let g:airline_powerline_fonts=1
 set timeout timeoutlen=500 ttimeoutlen=50 "Fix slow O inserts
+" }
+" vim-move {
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
 " }
 " End of Plugin Settings }
