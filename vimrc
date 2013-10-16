@@ -122,6 +122,14 @@ NeoBundle "kien/rainbow_parentheses.vim"
 " brackets, etc.
 NeoBundle "Raimondi/delimitMate"
 
+" The missing motion for Vim
+NeoBundle 'justinmk/vim-sneak'
+
+" Clojure {
+NeoBundle 'guns/vim-clojure-static'
+NeoBundle 'tpope/vim-fireplace'
+" }
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
