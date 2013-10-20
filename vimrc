@@ -128,6 +128,7 @@ NeoBundle 'justinmk/vim-sneak'
 " Clojure {
 NeoBundle 'guns/vim-clojure-static'
 NeoBundle 'tpope/vim-fireplace'
+NeoBundle 'dgrnbrg/vim-redl'
 " }
 
 " Erlang and elixir
