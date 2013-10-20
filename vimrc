@@ -131,6 +131,10 @@ NeoBundle 'tpope/vim-fireplace'
 NeoBundle 'dgrnbrg/vim-redl'
 " }
 
+" Scala {
+NeoBundle 'derekwyatt/vim-scala'
+" }
+
 " Erlang and elixir
 NeoBundle "aerosol/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
