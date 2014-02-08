@@ -135,14 +135,33 @@ NeoBundle 'dgrnbrg/vim-redl'
 NeoBundle 'derekwyatt/vim-scala'
 " }
 
-" Erlang and elixir
-NeoBundle "aerosol/vimerl"
+" Go {
+NeoBundle "jnwhiteh/vim-golang"
+" }
+
+" Erlang and elixir {
+NeoBundle "jimenezrick/vimerl"
 NeoBundle "elixir-lang/vim-elixir"
+" }
+
+" Haskell {
+NeoBundle 'Shougo/vimproc', {
+      \ 'build' : {
+      \     'windows' : 'make -f make_mingw32.mak',
+      \     'cygwin' : 'make -f make_cygwin.mak',
+      \     'mac' : 'make -f make_mac.mak',
+      \     'unix' : 'make -f make_unix.mak',
+      \    },
+      \ }
+NeoBundle 'eagletmt/ghcmod-vim'
+NeoBundle 'eagletmt/neco-ghc'
+" }
 
 " C {
 NeoBundle "b4winckler/vim-objc"
 NeoBundle 'eraserhd/vim-ios.git'
 NeoBundle "derekwyatt/vim-fswitch"
+NeoBundle 'rhysd/vim-clang-format'
 " }
 " Rails, YAML, Haml, CoffeeScript {
 NeoBundle "tpope/vim-rails"
@@ -154,12 +173,15 @@ NeoBundle "sunaku/vim-ruby-minitest"
 NeoBundle "vim-scripts/JavaScript-Indent"
 NeoBundle "marijnh/tern_for_vim"
 NeoBundle "jakar/vim-json"
+NeoBundle "kchmck/vim-coffee-script"
 " }
 " Settings {
 " Key Mapping {
 let mapleader = ","
 let maplocalleader = "\\"
 noremap <space> za
+nmap <F9> :GhcModType <CR>
+nmap <F10> :GhcModTypeClear <CR>
 " }
 " Restore view {
 autocmd BufWinLeave *.* mkview
@@ -198,9 +220,6 @@ nmap <F6> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 imap <F6> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 nmap <F5> :.w !pbcopy<CR><CR>
 vmap <F5> :w !pbcopy<CR><CR>
-" }
-" word count {
-vmap <F10> :w !wc<CR>
 " }
 " spell checker {
 au BufNewFile,BufRead *.md setlocal spell spelllang=en_us
