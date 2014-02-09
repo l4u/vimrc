@@ -137,6 +137,7 @@ NeoBundle 'derekwyatt/vim-scala'
 
 " Go {
 NeoBundle "jnwhiteh/vim-golang"
+NeoBundle 'Blackrush/vim-gocode'
 " }
 
 " Erlang and elixir {
