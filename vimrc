@@ -261,6 +261,8 @@ let g:UltiSnipsExpandTrigger = '<c-j>'
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 " }
 " make gutter always on {
 " https://github.com/scrooloose/syntastic/issues/255
