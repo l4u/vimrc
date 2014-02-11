@@ -20,6 +20,9 @@ NeoBundle "bling/vim-airline"
 " colorscheme
 NeoBundle "l4u/tomorrow-theme"
 
+" indentation lines
+NeoBundle 'Yggdroot/indentLine'
+
 " sensible.vim: Defaults everyone can agree on
 NeoBundle "tpope/vim-sensible"
 
@@ -338,5 +341,9 @@ inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
+" }
+" indentLine {
+let g:indentLine_color_term = 239
+let g:indentLine_char = '¦'
 " }
 " End of Plugin Settings }
